@@ -15,6 +15,14 @@ public:
 	void update(float dt);
 	void render();
 
+	sf::CircleShape circle; 
+	sf::CircleShape circle2; //moves with arrow keys
+	sf::CircleShape circle3;
+
+	float speed;
+	float speed2;
+	float speed3;
+
 private:
 	// Default functions for rendering to the screen.
 	void beginDraw();
